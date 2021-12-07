@@ -230,18 +230,18 @@ int main() {
 	Date end = start + constructing;
 
 
-	cout << "Äàòà íà÷àëà ñòðîèòåëüñòâà: " << start << endl;
-	cout << "Âðåìÿ ñòðîèòåëüñòâà: " << constructing << endl;
-	cout << "Äàòà ñäà÷è îáúåêòà(Äàòà+Äàòà): " << end << endl;
+	cout << "Дата начала строительства: " << start << endl;
+	cout << "время строительства: " << constructing << endl;
+	cout << "Дата сдачи объекта(Дата+Дата): " << end << endl;
 	end = start - constructing;
-	cout << "Äàòà íà÷àëà ñòðîèòåëüñòâà îáúåêòà(Äàòà-Äàòà): " << end << endl;
+	cout << "Дата начала строительства объекта(Дата-Дата): " << end << endl;
 	end = start + 29;
-	cout << "Äàòà ñäà÷è îáúåêòà(Äàòà+Int): " << end << endl;	
+	cout << "Дата сдачи объекта(Дата+Int): " << end << endl;	
 	end = end - 29;
-	cout << "Äàòà íà÷àëà ñòðîèòåëüñòâà îáúåêòà(Äàòà-Int): " << end << endl;
+	cout << "Дата начала строительства объекта(Дата-Int): " << end << endl;
 	end = start++;
-	cout << "Äàòà ñäà÷è îáúåêòà(Äàòà++): " << end << endl;
+	cout << "Дата сдачи объекта(Дата++): " << end << endl;
 	end = end--;
-	cout << "Äàòà íà÷àëà ñòðîèòåëüñòâà îáúåêòà(Äàòà--): " << end << endl;
+	cout << "Дата начала строительства объекта(Дата--): " << end << endl;
 	return 0;
 }
